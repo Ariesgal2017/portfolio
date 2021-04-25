@@ -11,24 +11,31 @@
   z-index: 3;
   transition: all 1s ease;
 
+  
   .wrapper {
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .left {
+      padding: 10px 30px;
       display: flex;
       align-items: center;
-
-      .logo {
-        font-size: 40px;
-        font-weight: 700;
-        text-decoration: none;
-        color: inherit;
-        margin-right: 40px;
-      }
-
+      justify-content: space-between;
+      
+      .left {
+          display: flex;
+          align-items: center;
+          
+          .logo {
+              font-size: 40px;
+              font-weight: 700;
+              text-decoration: none;
+              color: inherit;
+              margin-right: 40px;
+              
+              
+              @include mobile{
+                font-size:35px;
+                
+              }
+            }
+            
       .itemContainer {
         display: flex;
         align-items: center;
