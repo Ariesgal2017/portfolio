@@ -54,6 +54,7 @@ export default function Portfolio() {
               alt=""
             />
             <h3>{d.title}</h3>
+            <button>{d.url}</button>
           </div>
         ))}
       </div>
