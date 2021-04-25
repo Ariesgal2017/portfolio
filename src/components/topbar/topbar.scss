@@ -36,6 +36,7 @@
 
         @include mobile{
           display: none;
+          height:fit-content;
         }
 
         .icon {
