@@ -5,6 +5,8 @@ import {
   featuredPortfolio,
   webPortfolio,
 } from "../../data";
+import {Grid} from '@material-ui/core'
+
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -57,6 +59,47 @@ export default function Portfolio() {
           </div>
         ))}
         <a href="http://vibetube.herokuapp.com">DEPLOY</a>
+      </div>
+      <div className="skills">
+        <ol>
+         <hr/>
+        <Grid
+          className="grid-left"
+          container
+          direction="column"
+          justify="center"
+          float="left"
+          max-width="50%"
+          alignItems="center"
+>
+          <h2><strong>Skills:</strong></h2>
+          <li>Python, Django</li>
+          <li>Javascript</li>
+          <li>MongoDB</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>Bootstrap</li>
+          <li>TailwindCSS</li>
+          <li>HTML, CSS</li>
+          <li>Object Oriented Programming</li>
+          <li>Test Driven Development</li>
+          <li>Client/Server database management</li>
+          </Grid>
+          <hr/>
+          <Grid
+            className="grid-right"
+            container
+            direction="column"
+            justify="center"
+            float="right"
+            max-width="50%"
+            alignItems="center"
+          >
+            <p><strong>Kenzie Academy-2021-</strong><em>Full stack software engineering/web development</em><br/>
+            <strong>University of Phoenix-2012-</strong><em>Associates of Applied Sci. Information Tech:Network Sys Admin</em></p>
+            
+          </Grid>
+        </ol>
       </div>
     </div>
   );

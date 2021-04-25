@@ -75,7 +75,20 @@
           opacity: 0.2;
           z-index: 0;
         }
+        .skills{
+          display: flex;
+          text-align: center;
+        }
       }
+    }
+    ul{
+      ol{
+        flex-direction: column;
+        justify-content: space-between;
+        font-size:150px;
+
+      }
+    
     }
   }
 }
