@@ -6,13 +6,14 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/vivetube.png",
+      icon: "./assets/vibetube.png",
       title: "Web Development/Software Engineering",
       desc:
         "Front end UI design as well as backend server/database management",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    },
+      a: "http://vibetube.herokuapp.com",
+      },
   ];
 
   const handleClick = (way) => {
