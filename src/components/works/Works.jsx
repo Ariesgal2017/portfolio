@@ -14,6 +14,14 @@ export default function Works() {
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       url: "http://vibetube.herokuapp.com",
       },
+
+      {
+        id: 2,
+        icon: 'shoestore.png',
+        title: "ShoeStore App",
+        desc: "hypothetical shoestore web app written in React frontend",
+        url: "https://github.com/kenzie-se-q4/react-plus-apis-in-a-nutshell-Ariesgal2017"
+        }
   ];
 
   const handleClick = (way) => {
@@ -35,6 +43,7 @@ export default function Works() {
                 <div className="leftContainer">
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
+                    <a href={d.url}/>
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
