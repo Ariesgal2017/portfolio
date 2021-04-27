@@ -7,7 +7,7 @@
   align-items: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 20px;
 
     @include mobile{
       font-size: 20px;
@@ -36,6 +36,19 @@
 
     @include mobile{
       width: 100%;
+
+    .deploy{
+      display: flex;
+      flex-direction: column;
+
+      p{
+        flex-direction: column;
+      }
+
+      button{
+        margin:10px 20px;
+      }
+    }
     }
 
     .item {
@@ -75,20 +88,7 @@
           opacity: 0.2;
           z-index: 0;
         }
-        .skills{
-          display: flex;
-          text-align: center;
-        }
       }
-    }
-    ul{
-      ol{
-        flex-direction: column;
-        justify-content: space-between;
-        font-size:150px;
-
-      }
-    
     }
   }
 }

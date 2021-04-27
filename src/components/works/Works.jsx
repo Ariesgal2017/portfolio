@@ -14,14 +14,17 @@ export default function Works() {
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       url: "http://vibetube.herokuapp.com",
       },
-
       {
-        id: 2,
-        icon: 'shoestore.png',
-        title: "ShoeStore App",
-        desc: "hypothetical shoestore web app written in React frontend",
-        url: "https://github.com/kenzie-se-q4/react-plus-apis-in-a-nutshell-Ariesgal2017"
-        }
+
+        id: "2",
+        icon: "./assets/vibetube.png",
+        title: "Web Development/Software Engineering",
+        desc:
+        "test",
+        img:
+          "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        url: "https://www.google.com",
+        },
   ];
 
   const handleClick = (way) => {
@@ -35,7 +38,7 @@ export default function Works() {
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
+      > 
         {data.map((d) => (
           <div className="container">
             <div className="item">

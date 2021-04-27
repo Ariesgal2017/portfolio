@@ -3,7 +3,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
+  webAppPortfolio,
 } from "../../data";
 import {Grid} from '@material-ui/core'
 
@@ -23,17 +23,24 @@ export default function Portfolio() {
   ];
 
   useEffect(() => {
+
+    console.log( selected )
+
     switch (selected) {
       case "featured":
         setData(featuredPortfolio);
         break;
       case "web":
-        setData(webPortfolio);
+        setData(webAppPortfolio);
         break;
       default:
         setData(featuredPortfolio);
     }
   }, [selected]);
+
+  console.log( data )
+
+
 
   return (
     <div className="portfolio" id="portfolio">
@@ -48,18 +55,25 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-      <div className="container">
-        {data.map((d) => (
+
+        {data.map((d) => (      
+        <div className="container">    
           <div className="item">
             <img
               src={d.img}
               alt=""
-            />
+              />
             <h3>{d.title}</h3>
           </div>
+          <div className="deploy">
+          <p><strong>{d.desc}</strong></p>
+          <br/>
+            <button><a href={d.url}>LAUNCH</a></button>
+            <button><a href={d.code}>CODEBASE</a></button>
+          </div>
+        </div>
         ))}
-        <a href="http://vibetube.herokuapp.com">DEPLOY</a>
-      </div>
+
       <div className="skills">
         <ol>
          <hr/>
@@ -71,7 +85,7 @@ export default function Portfolio() {
           float="left"
           max-width="50%"
           alignItems="center"
->
+          >
           <h2><strong>Skills:</strong></h2>
           <li>Python, Django</li>
           <li>Javascript</li>
