@@ -3,7 +3,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webAppPortfolio,
+  bashPortfolio,
 } from "../../data";
 import {Grid} from '@material-ui/core'
 
@@ -17,9 +17,10 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "Bash",
+      title: "Bash",
     },
+    
   ];
 
   useEffect(() => {
@@ -30,8 +31,8 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webAppPortfolio);
+      case "bash":
+        setData(bashPortfolio);
         break;
       default:
         setData(featuredPortfolio);

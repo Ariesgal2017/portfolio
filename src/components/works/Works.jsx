@@ -16,15 +16,15 @@ export default function Works() {
       },
       {
 
-        id: "2",
-        icon: "./assets/vibetube.png",
+        id: "1",
+        icon: "./assets/iss.jpg",
         title: "Web Development/Software Engineering",
         desc:
         "test",
-        img:
-          "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        img: "./assets/iss.jpg",
         url: "https://www.google.com",
         },
+
   ];
 
   const handleClick = (way) => {
@@ -55,7 +55,7 @@ export default function Works() {
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src=""
                   alt=""
                 />
               </div>

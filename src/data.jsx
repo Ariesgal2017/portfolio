@@ -6,23 +6,22 @@ export const featuredPortfolio = [
     title: "VibeTube",
     desc:
       "A tiktok clone written in Python/Django using tailwindCSS",
-    img:
-      "./assets/vibe.jpg",
+    img:"./assets/vibe.jpg",
     url: "http://vibetube.herokuapp.com",
     code: "https://github.com/Ariesgal2017/VibeTube-1"
    },
 ]
-export const webAppPortfolio = [
+
+export const bashPortfolio = [
   {
     id: "1",
-    icon: "./assets/vibetube.png",
-    title: "Bugtracker",
-    desc:
-      "",
-    img:
-      "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    url: "http://vibetube.herokuapp.com",
-   },
+    icon: "",
+    title: "ISS Locator",
+    desc: "A program written in python/django utilizing bash to locate the International Space Station",
+    img: "./assets/iss.jpg",
+    url: "https://replit.com/@ariesgal2017/ISS-locator#iss.py",
+    code: "https://gitlab.com/ariesgal2020/iss",
+  }
 ]
   
   

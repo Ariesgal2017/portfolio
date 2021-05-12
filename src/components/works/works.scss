@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,8 +48,9 @@
       .item {
         width: 700px;
         height: 100%;
-        background-color: white;
+        background-color: crimson;
         border-radius: 20px;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
