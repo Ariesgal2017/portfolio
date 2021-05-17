@@ -14,8 +14,8 @@ export const featuredPortfolio = [
 
 export const bashPortfolio = [
   {
-    id: "1",
-    icon: "",
+    id: "2",
+    icon: "./assets/iss.jpg",
     title: "ISS Locator",
     desc: "A program written in python/django utilizing bash to locate the International Space Station",
     img: "./assets/iss.jpg",

@@ -17,7 +17,7 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "Bash",
+      id: "bash",
       title: "Bash",
     },
     
@@ -25,7 +25,6 @@ export default function Portfolio() {
 
   useEffect(() => {
 
-    console.log( selected )
 
     switch (selected) {
       case "featured":
@@ -38,9 +37,6 @@ export default function Portfolio() {
         setData(featuredPortfolio);
     }
   }, [selected]);
-
-  console.log( data )
-
 
 
   return (
