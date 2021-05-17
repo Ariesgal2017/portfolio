@@ -43,6 +43,14 @@
 
       p{
         flex-direction: column;
+
+      .skills {
+
+        li {
+          margin-left: 30%;
+          align-content:space-between;
+        }
+      }
       }
 
       button{

@@ -5,7 +5,7 @@ export const featuredPortfolio = [
     icon: "./assets/vibetube.png",
     title: "VibeTube",
     desc:
-      "A tiktok clone written in Python/Django using tailwindCSS",
+      "A tiktok clone written in Python/Django using tailwindCSS with added functionality like instant messaging",
     img:"./assets/vibe.jpg",
     url: "http://vibetube.herokuapp.com",
     code: "https://github.com/Ariesgal2017/VibeTube-1"

@@ -6,6 +6,7 @@ import {
   bashPortfolio,
 } from "../../data";
 import {Grid} from '@material-ui/core'
+import Rating from '@material-ui/lab/Rating'
 
 
 export default function Portfolio() {
@@ -84,22 +85,21 @@ export default function Portfolio() {
           alignItems="center"
           >
           <h2><strong>Skills:</strong></h2>
-          <li>Python, Django</li>
-          <li>Javascript</li>
-          <li>MongoDB</li>
-          <li>React</li>
-          <li>Node</li>
-          <li>Bootstrap</li>
-          <li>TailwindCSS</li>
-          <li>HTML, CSS</li>
-          <li>Object Oriented Programming</li>
-          <li>Test Driven Development</li>
-          <li>Client/Server database management</li>
+          <li>Python, Django  <Rating name="half-rating" defaultValue={4.0} precision={0.5} /></li>
+          <li>Javascript   <Rating name="half-rating" defaultValue={3.5} precision={0.5} /></li>
+          <li>MongoDB   <Rating name="half-rating" defaultValue={3.0} precision={0.5} /></li>
+          <li>React    <Rating name="half-rating" defaultValue={3.5} precision={0.5} /></li>
+          <li>Node    <Rating name="half-rating" defaultValue={2.5} precision={0.5} /></li>
+          <li>Bootstrap    <Rating name="half-rating" defaultValue={3.5} precision={0.5} /></li>
+          <li>TailwindCSS    <Rating name="half-rating" defaultValue={3.0} precision={0.5} /></li>
+          <li>HTML, CSS    <Rating name="half-rating" defaultValue={4.5} precision={0.5} /></li>
+          <li>Object Oriented Programming    <Rating name="half-rating" defaultValue={3.5} precision={0.5} /></li>
+          <li>Test Driven Develop    <Rating name="half-rating" defaultValue={3.0} precision={0.5} /></li>
+          <li>Client/Server database management    <Rating name="half-rating" defaultValue={3.5} precision={0.5} /></li>
           </Grid>
           <hr/>
           <Grid
-            className="grid-right"
-            container
+            className="grid-right"            container
             direction="column"
             justify="center"
             float="right"
