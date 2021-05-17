@@ -107,7 +107,7 @@ export default function Portfolio() {
             alignItems="center"
           >
             <p><strong>Kenzie Academy-2021-</strong><em>Full stack software engineering/web development</em><br/>
-            <strong>University of Phoenix-2012-</strong><em>Associates of Applied Sci. Information Tech:Network Sys Admin</em></p>
+            <strong>University of Phoenix-2012-</strong><em>Bachelors of Applied Sci. Computer Science: Software Analysis and Design</em></p>
             
           </Grid>
         </ol>
