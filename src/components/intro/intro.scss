@@ -22,6 +22,7 @@
       align-items: flex-end;
       justify-content: center;
       float: right;
+      position-top: 5px;
 
       @include mobile{
         align-items: flex-start;
@@ -99,6 +100,7 @@
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
+        align-items: center;
       }
 
       @keyframes arrowBlink {
